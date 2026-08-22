@@ -1,5 +1,5 @@
 Config = {
-    webhook = 'https://discord.com/api/webhooks/1314067865489510420/HE2tNJcFxGU792aUvpmLj6s8w6KvXcPOEfLL24JLEcPniDU_-qlhGKsKDxz7mr_e7F53', -- logs to discord using qbx_core
+    webhook = 'your webhook here', -- logs to discord using qbx_core
     washableItem = 'black_money', -- any 'dark' currency that you want exchanged to normal cash
     enterCoords = vector3(-396.66, 6076.92, 31.5), -- entrance location for IPL
     exitCoords = vector3(1118.66, -3193.65, -40.39), -- exit location for IPL
