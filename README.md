@@ -1,4 +1,4 @@
-# WP Money Wash
+#Money Wash
 
 A configurable **money laundering system for FiveM** built around **QBX Core**, **ox_inventory**, **ox_target**, and **ox_lib**.
 
