@@ -34,7 +34,7 @@ RegisterServerEvent("wp-moneywash:server:startWasher", function(data)
         color = 'green',
         message = ('Washer #%s has just started...'):format(data.washerId),
         })
-        wash(data.washerId)
+        wash(src, data.washerId)
     else 
         lib.notify(src, {
             title = 'This washer is already started!',
@@ -88,8 +88,7 @@ RegisterServerEvent("wp-moneywash:server:collectMoney", function(data, washerId)
     end
 end)
 
-function wash(washerId)
-    local src = source
+function wash(src, washerId)
     local stash = 'Washer #'..washerId
     local amount = exports.ox_inventory:GetItem(stash, Config.washableItem, nil, true) -- checks stash for amount of item and returns the amount if true
     local cleaned = (amount * Config.conversionRate)

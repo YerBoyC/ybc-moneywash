@@ -22,3 +22,10 @@ shared_scripts {
 }
 
 lua54 'yes'
+
+-- All source files are intentionally left unencrypted for this free/open-source resource.
+escrow_ignore {
+    'config.lua',
+    'client.lua',
+    'server.lua',
+}
