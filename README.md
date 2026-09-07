@@ -4,6 +4,8 @@ A configurable **money laundering system for FiveM** built around **QBX Core**, 
 
 WP Money Wash provides an immersive way for players to convert a configured dirty-money item into clean cash by depositing it into one of several washing stations. Processing takes a configurable amount of time based on the amount being washed.
 
+NOTE: This resource was originally started in 2024. I have not done much to this since then. Feel free to contribute if you'd like.
+
 ## Features
 
 - 💰 Configurable dirty-money item
